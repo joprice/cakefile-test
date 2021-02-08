@@ -7,105 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04488BA9E1CB4DA4CC175786 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C93EE1CBD73747137B62CA0 /* Info.plist */; };
-		5320EDB1295B1B02D58E108A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313D3B76187E4ED42B3A8124 /* Foundation.framework */; };
-		6A12A87C7F325983F7BBAF1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA106046AB74A1C6F21891A2 /* ContentView.swift */; };
-		6F6A3B5D0C28B211276130D4 /* scratchpadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8969291EFEB2BC1C8AE30A /* scratchpadApp.swift */; };
-		98176F2E97EB74F40F6DC1DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B80C69B32CEED40111C2DE /* Preview Assets.xcassets */; };
-		AE59BCD0D69F9F81F3B53EC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811A77EC9ADD8B14D3B75CF0 /* UIKit.framework */; };
-		E708D64C92A5E24E2827D7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2F2A2D06C75AACF6E815F /* Assets.xcassets */; };
+		2102DA8EA3848D454E3235DE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFB950B14226B02177358983 /* Info.plist */; };
+		3CBE6BF66FC46F7D0EBC0F2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BAE6A8C2007F1C4686F066 /* ContentView.swift */; };
+		68D7B573F0BD929AC0F0EBE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F74E8D82A9AFD95C912C110 /* Preview Assets.xcassets */; };
+		79933484C46392F4D90C766B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A456B6CD2BF2E4A8DDB0565 /* Foundation.framework */; };
+		98112275D8BC9C3BD7855CFA /* scratchpadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FC6DBF8E58BF71B2382899 /* scratchpadApp.swift */; };
+		ADAAE60C2CA93AD280BE0A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E27EB55A09FBABE5077D5E /* Assets.xcassets */; };
+		B9C0BC89E767411BF1E9193A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1E1597024E4221B4C553FF /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C93EE1CBD73747137B62CA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		313D3B76187E4ED42B3A8124 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4CF2F2A2D06C75AACF6E815F /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6C8969291EFEB2BC1C8AE30A /* scratchpadApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = scratchpadApp.swift; sourceTree = "<group>"; };
-		811A77EC9ADD8B14D3B75CF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8406D67A4C28E04AE591D0A5 /* scratchpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scratchpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3B80C69B32CEED40111C2DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FA106046AB74A1C6F21891A2 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		07953380F26A97DB58905C26 /* scratchpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scratchpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BAE6A8C2007F1C4686F066 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		61E27EB55A09FBABE5077D5E /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A456B6CD2BF2E4A8DDB0565 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8F74E8D82A9AFD95C912C110 /* Preview Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8FC6DBF8E58BF71B2382899 /* scratchpadApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = scratchpadApp.swift; sourceTree = "<group>"; };
+		BB1E1597024E4221B4C553FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EFB950B14226B02177358983 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CA43055B89870E55F8435344 /* Frameworks */ = {
+		4FED7CC7CE3A96A0B848A807 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5320EDB1295B1B02D58E108A /* Foundation.framework in Frameworks */,
-				AE59BCD0D69F9F81F3B53EC8 /* UIKit.framework in Frameworks */,
+				79933484C46392F4D90C766B /* Foundation.framework in Frameworks */,
+				B9C0BC89E767411BF1E9193A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DC9CEE713F39C8347C7941C /* Frameworks */ = {
+		01850D0FAD6A94695EE4DFE0 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C936B3A81F310B74E2137A92 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		15E8BA0240CF1DCD33295F6B /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				F3B80C69B32CEED40111C2DE /* Preview Assets.xcassets */,
+				8F74E8D82A9AFD95C912C110 /* Preview Assets.xcassets */,
 			);
 			name = "Preview Content";
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		890876AFAEC3ED20C40F857E /* scratchpad */ = {
+		2B7AA392059A0ED8176FCAE0 = {
 			isa = PBXGroup;
 			children = (
-				4CF2F2A2D06C75AACF6E815F /* Assets.xcassets */,
-				15E8BA0240CF1DCD33295F6B /* Preview Content */,
-				6C8969291EFEB2BC1C8AE30A /* scratchpadApp.swift */,
-				FA106046AB74A1C6F21891A2 /* ContentView.swift */,
-				0C93EE1CBD73747137B62CA0 /* Info.plist */,
+				DDA8529BEFD767EAF109CCDB /* Products */,
+				8E2F6DDA5C1739671220C1DF /* scratchpad */,
+				58D7A012501CE372A9B2C129 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		58D7A012501CE372A9B2C129 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A151D2CEEBEED0708FA8D0EB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E2F6DDA5C1739671220C1DF /* scratchpad */ = {
+			isa = PBXGroup;
+			children = (
+				61E27EB55A09FBABE5077D5E /* Assets.xcassets */,
+				01850D0FAD6A94695EE4DFE0 /* Preview Content */,
+				A8FC6DBF8E58BF71B2382899 /* scratchpadApp.swift */,
+				53BAE6A8C2007F1C4686F066 /* ContentView.swift */,
+				EFB950B14226B02177358983 /* Info.plist */,
 			);
 			name = scratchpad;
 			path = scratchpad;
 			sourceTree = "<group>";
 		};
-		C82803C5876360C3A7825C11 /* Products */ = {
+		A151D2CEEBEED0708FA8D0EB /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8406D67A4C28E04AE591D0A5 /* scratchpad.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C936B3A81F310B74E2137A92 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				313D3B76187E4ED42B3A8124 /* Foundation.framework */,
-				811A77EC9ADD8B14D3B75CF0 /* UIKit.framework */,
+				6A456B6CD2BF2E4A8DDB0565 /* Foundation.framework */,
+				BB1E1597024E4221B4C553FF /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D680E2ED71F63B7941692B90 = {
+		DDA8529BEFD767EAF109CCDB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C82803C5876360C3A7825C11 /* Products */,
-				890876AFAEC3ED20C40F857E /* scratchpad */,
-				0DC9CEE713F39C8347C7941C /* Frameworks */,
+				07953380F26A97DB58905C26 /* scratchpad.app */,
 			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B33942870E43E81F2013FACE /* scratchpad */ = {
+		7D69A47D4765C5FA215DE8F2 /* scratchpad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E05B9804D75FDECBC48C62B /* Build configuration list for PBXNativeTarget "scratchpad" */;
+			buildConfigurationList = A07A67032BD8A7167594A82D /* Build configuration list for PBXNativeTarget "scratchpad" */;
 			buildPhases = (
-				D3406EA6381B7F22EA1F98C0 /* Resources */,
-				C3CFDD682CD3D374079D2B14 /* Sources */,
-				CA43055B89870E55F8435344 /* Frameworks */,
+				B441EA7DFE19ACD76FD75B99 /* Resources */,
+				53D596B4AB90CC69BB18DCB4 /* Sources */,
+				4FED7CC7CE3A96A0B848A807 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,20 +113,20 @@
 			);
 			name = scratchpad;
 			productName = scratchpad;
-			productReference = 8406D67A4C28E04AE591D0A5 /* scratchpad.app */;
+			productReference = 07953380F26A97DB58905C26 /* scratchpad.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		65ED145C9C7B747341C3007C /* Project object */ = {
+		580276D47D2D2372958B8528 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = APP;
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = AF393BF559280894B567835E /* Build configuration list for PBXProject "scratchpad" */;
+			buildConfigurationList = FC827DADBD67BDAE1EBB13AC /* Build configuration list for PBXProject "scratchpad" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,43 +134,43 @@
 				en,
 				Base,
 			);
-			mainGroup = D680E2ED71F63B7941692B90;
-			productRefGroup = C82803C5876360C3A7825C11 /* Products */;
+			mainGroup = 2B7AA392059A0ED8176FCAE0;
+			productRefGroup = DDA8529BEFD767EAF109CCDB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B33942870E43E81F2013FACE /* scratchpad */,
+				7D69A47D4765C5FA215DE8F2 /* scratchpad */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D3406EA6381B7F22EA1F98C0 /* Resources */ = {
+		B441EA7DFE19ACD76FD75B99 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E708D64C92A5E24E2827D7C6 /* Assets.xcassets in Resources */,
-				98176F2E97EB74F40F6DC1DE /* Preview Assets.xcassets in Resources */,
-				04488BA9E1CB4DA4CC175786 /* Info.plist in Resources */,
+				ADAAE60C2CA93AD280BE0A3D /* Assets.xcassets in Resources */,
+				68D7B573F0BD929AC0F0EBE4 /* Preview Assets.xcassets in Resources */,
+				2102DA8EA3848D454E3235DE /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C3CFDD682CD3D374079D2B14 /* Sources */ = {
+		53D596B4AB90CC69BB18DCB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F6A3B5D0C28B211276130D4 /* scratchpadApp.swift in Sources */,
-				6A12A87C7F325983F7BBAF1E /* ContentView.swift in Sources */,
+				98112275D8BC9C3BD7855CFA /* scratchpadApp.swift in Sources */,
+				3CBE6BF66FC46F7D0EBC0F2A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		23BC31AE5B88E64306672463 /* Debug */ = {
+		04AEB1C60B5F9594DABD9BC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +231,7 @@
 			};
 			name = Debug;
 		};
-		6D9CA6BD0987FB1C622B6E2B /* Release */ = {
+		733586C9B968B3249AB37F25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,28 +285,11 @@
 			};
 			name = Release;
 		};
-		82F51E3037B52889E62C70C2 /* Debug */ = {
+		912765A7464FA89C7289672E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				DEVELOPMENT_TEAM = 8XM6SK89ZM;
-				INFOPLIST_FILE = scratch/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.yourapp;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B5CE3DE8F0D9778F08B2A0A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				DEVELOPMENT_TEAM = 8XM6SK89ZM;
 				INFOPLIST_FILE = scratch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -317,28 +300,43 @@
 			};
 			name = Release;
 		};
+		A24B98037D0AAE6ED946FE33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				INFOPLIST_FILE = scratch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.yourapp;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9E05B9804D75FDECBC48C62B /* Build configuration list for PBXNativeTarget "scratchpad" */ = {
+		A07A67032BD8A7167594A82D /* Build configuration list for PBXNativeTarget "scratchpad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82F51E3037B52889E62C70C2 /* Debug */,
-				B5CE3DE8F0D9778F08B2A0A3 /* Release */,
+				A24B98037D0AAE6ED946FE33 /* Debug */,
+				912765A7464FA89C7289672E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF393BF559280894B567835E /* Build configuration list for PBXProject "scratchpad" */ = {
+		FC827DADBD67BDAE1EBB13AC /* Build configuration list for PBXProject "scratchpad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23BC31AE5B88E64306672463 /* Debug */,
-				6D9CA6BD0987FB1C622B6E2B /* Release */,
+				04AEB1C60B5F9594DABD9BC0 /* Debug */,
+				733586C9B968B3249AB37F25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 65ED145C9C7B747341C3007C /* Project object */;
+	rootObject = 580276D47D2D2372958B8528 /* Project object */;
 }

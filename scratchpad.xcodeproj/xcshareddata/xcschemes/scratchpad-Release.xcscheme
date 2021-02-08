@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B33942870E43E81F2013FACE"
+               BlueprintIdentifier = "7D69A47D4765C5FA215DE8F2"
                BuildableName = "scratchpad.app"
                BlueprintName = "scratchpad"
                ReferencedContainer = "container:scratchpad.xcodeproj">
