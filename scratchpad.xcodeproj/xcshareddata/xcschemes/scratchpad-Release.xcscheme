@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "43A8DE6D6404CB215838499B"
+               BlueprintIdentifier = "B33942870E43E81F2013FACE"
                BuildableName = "scratchpad.app"
                BlueprintName = "scratchpad"
                ReferencedContainer = "container:scratchpad.xcodeproj">
@@ -29,18 +29,6 @@
       buildConfiguration = "Release">
       <AdditionalOptions>
       </AdditionalOptions>
-      <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5C471779B62EDE841A5838C3"
-               BuildableName = "scratchpadTests.xctest"
-               BlueprintName = "scratchpadTests"
-               ReferencedContainer = "container:scratchpad.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"

@@ -18,7 +18,10 @@ application_for :ios, 9.0 do |target|
 
     #Update these with the details of your app
     target.name = "scratchpad"
-    target.all_configurations.each { |c| c.product_bundle_identifier = "com.yourcompany.yourapp"}
+    target.all_configurations.each { |c|
+        c.product_bundle_identifier = "com.yourcompany.yourapp"
+        c.settings['INFOPLIST_FILE'] = "scratch/Info.plist"
+    }
 
     # Uncomment to target iPhone devices only
     #
@@ -48,7 +51,20 @@ application_for :ios, 9.0 do |target|
 
     # Comment to remove Unit Tests for your app
     #
-    unit_tests_for target
+    #unit_tests_for target do |target|
+    #    target.name = "scratchpadTests"
+    #    target.all_configurations.each { |c|
+    #        c.settings['INFOPLIST_FILE'] = "scratchpadTests/Info.plist"
+    #    }
+    #end
+#
+#    ui_tests_for target do |target|
+#        target.name = "scratchpadUITests"
+#        target.all_configurations.each { |c|
+#            c.settings['INFOPLIST_FILE'] = "scratchpadUITests/Info.plist"
+#        }
+#    end
+
 
     # Uncomment to create a Watch App for your application.
     #
