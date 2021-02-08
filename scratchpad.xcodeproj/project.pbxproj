@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FD8E77F25D0C85D00F239F2 /* scratchpadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD8E77E25D0C85D00F239F2 /* scratchpadApp.swift */; };
+		6FD8E78125D0C85D00F239F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD8E78025D0C85D00F239F2 /* ContentView.swift */; };
+		6FD8E78325D0C85E00F239F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD8E78225D0C85E00F239F2 /* Assets.xcassets */; };
+		6FD8E78625D0C85E00F239F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD8E78525D0C85E00F239F2 /* Preview Assets.xcassets */; };
+		6FD8E79125D0C85F00F239F2 /* scratchpadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD8E79025D0C85F00F239F2 /* scratchpadTests.swift */; };
+		6FD8E79C25D0C85F00F239F2 /* scratchpadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD8E79B25D0C85F00F239F2 /* scratchpadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FD8E78D25D0C85F00F239F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FD8E77325D0C85D00F239F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD8E77A25D0C85D00F239F2;
+			remoteInfo = scratchpad;
+		};
+		6FD8E79825D0C85F00F239F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FD8E77325D0C85D00F239F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD8E77A25D0C85D00F239F2;
+			remoteInfo = scratchpad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FD8E77B25D0C85D00F239F2 /* scratchpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scratchpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD8E77E25D0C85D00F239F2 /* scratchpadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scratchpadApp.swift; sourceTree = "<group>"; };
+		6FD8E78025D0C85D00F239F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6FD8E78225D0C85E00F239F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FD8E78525D0C85E00F239F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FD8E78725D0C85E00F239F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD8E78C25D0C85F00F239F2 /* scratchpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scratchpadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD8E79025D0C85F00F239F2 /* scratchpadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scratchpadTests.swift; sourceTree = "<group>"; };
+		6FD8E79225D0C85F00F239F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD8E79725D0C85F00F239F2 /* scratchpadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scratchpadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD8E79B25D0C85F00F239F2 /* scratchpadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scratchpadUITests.swift; sourceTree = "<group>"; };
+		6FD8E79D25D0C85F00F239F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FD8E77825D0C85D00F239F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD8E78925D0C85F00F239F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD8E79425D0C85F00F239F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FD8E77225D0C85D00F239F2 = {
+			isa = PBXGroup;
+			children = (
+				6FD8E77D25D0C85D00F239F2 /* scratchpad */,
+				6FD8E78F25D0C85F00F239F2 /* scratchpadTests */,
+				6FD8E79A25D0C85F00F239F2 /* scratchpadUITests */,
+				6FD8E77C25D0C85D00F239F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FD8E77C25D0C85D00F239F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FD8E77B25D0C85D00F239F2 /* scratchpad.app */,
+				6FD8E78C25D0C85F00F239F2 /* scratchpadTests.xctest */,
+				6FD8E79725D0C85F00F239F2 /* scratchpadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FD8E77D25D0C85D00F239F2 /* scratchpad */ = {
+			isa = PBXGroup;
+			children = (
+				6FD8E77E25D0C85D00F239F2 /* scratchpadApp.swift */,
+				6FD8E78025D0C85D00F239F2 /* ContentView.swift */,
+				6FD8E78225D0C85E00F239F2 /* Assets.xcassets */,
+				6FD8E78725D0C85E00F239F2 /* Info.plist */,
+				6FD8E78425D0C85E00F239F2 /* Preview Content */,
+			);
+			path = scratchpad;
+			sourceTree = "<group>";
+		};
+		6FD8E78425D0C85E00F239F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6FD8E78525D0C85E00F239F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6FD8E78F25D0C85F00F239F2 /* scratchpadTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FD8E79025D0C85F00F239F2 /* scratchpadTests.swift */,
+				6FD8E79225D0C85F00F239F2 /* Info.plist */,
+			);
+			path = scratchpadTests;
+			sourceTree = "<group>";
+		};
+		6FD8E79A25D0C85F00F239F2 /* scratchpadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FD8E79B25D0C85F00F239F2 /* scratchpadUITests.swift */,
+				6FD8E79D25D0C85F00F239F2 /* Info.plist */,
+			);
+			path = scratchpadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FD8E77A25D0C85D00F239F2 /* scratchpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD8E7A025D0C85F00F239F2 /* Build configuration list for PBXNativeTarget "scratchpad" */;
+			buildPhases = (
+				6FD8E77725D0C85D00F239F2 /* Sources */,
+				6FD8E77825D0C85D00F239F2 /* Frameworks */,
+				6FD8E77925D0C85D00F239F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scratchpad;
+			productName = scratchpad;
+			productReference = 6FD8E77B25D0C85D00F239F2 /* scratchpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FD8E78B25D0C85F00F239F2 /* scratchpadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD8E7A325D0C85F00F239F2 /* Build configuration list for PBXNativeTarget "scratchpadTests" */;
+			buildPhases = (
+				6FD8E78825D0C85F00F239F2 /* Sources */,
+				6FD8E78925D0C85F00F239F2 /* Frameworks */,
+				6FD8E78A25D0C85F00F239F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FD8E78E25D0C85F00F239F2 /* PBXTargetDependency */,
+			);
+			name = scratchpadTests;
+			productName = scratchpadTests;
+			productReference = 6FD8E78C25D0C85F00F239F2 /* scratchpadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FD8E79625D0C85F00F239F2 /* scratchpadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD8E7A625D0C85F00F239F2 /* Build configuration list for PBXNativeTarget "scratchpadUITests" */;
+			buildPhases = (
+				6FD8E79325D0C85F00F239F2 /* Sources */,
+				6FD8E79425D0C85F00F239F2 /* Frameworks */,
+				6FD8E79525D0C85F00F239F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FD8E79925D0C85F00F239F2 /* PBXTargetDependency */,
+			);
+			name = scratchpadUITests;
+			productName = scratchpadUITests;
+			productReference = 6FD8E79725D0C85F00F239F2 /* scratchpadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FD8E77325D0C85D00F239F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6FD8E77A25D0C85D00F239F2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6FD8E78B25D0C85F00F239F2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6FD8E77A25D0C85D00F239F2;
+					};
+					6FD8E79625D0C85F00F239F2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6FD8E77A25D0C85D00F239F2;
+					};
+				};
+			};
+			buildConfigurationList = 6FD8E77625D0C85D00F239F2 /* Build configuration list for PBXProject "scratchpad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FD8E77225D0C85D00F239F2;
+			productRefGroup = 6FD8E77C25D0C85D00F239F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FD8E77A25D0C85D00F239F2 /* scratchpad */,
+				6FD8E78B25D0C85F00F239F2 /* scratchpadTests */,
+				6FD8E79625D0C85F00F239F2 /* scratchpadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FD8E77925D0C85D00F239F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD8E78625D0C85E00F239F2 /* Preview Assets.xcassets in Resources */,
+				6FD8E78325D0C85E00F239F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD8E78A25D0C85F00F239F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD8E79525D0C85F00F239F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FD8E77725D0C85D00F239F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD8E78125D0C85D00F239F2 /* ContentView.swift in Sources */,
+				6FD8E77F25D0C85D00F239F2 /* scratchpadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD8E78825D0C85F00F239F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD8E79125D0C85F00F239F2 /* scratchpadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD8E79325D0C85F00F239F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD8E79C25D0C85F00F239F2 /* scratchpadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FD8E78E25D0C85F00F239F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FD8E77A25D0C85D00F239F2 /* scratchpad */;
+			targetProxy = 6FD8E78D25D0C85F00F239F2 /* PBXContainerItemProxy */;
+		};
+		6FD8E79925D0C85F00F239F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FD8E77A25D0C85D00F239F2 /* scratchpad */;
+			targetProxy = 6FD8E79825D0C85F00F239F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6FD8E79E25D0C85F00F239F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FD8E79F25D0C85F00F239F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FD8E7A125D0C85F00F239F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"scratchpad/Preview Content\"";
+				DEVELOPMENT_TEAM = 8XM6SK89ZM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = scratchpad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joprice.scratchpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FD8E7A225D0C85F00F239F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"scratchpad/Preview Content\"";
+				DEVELOPMENT_TEAM = 8XM6SK89ZM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = scratchpad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joprice.scratchpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FD8E7A425D0C85F00F239F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XM6SK89ZM;
+				INFOPLIST_FILE = scratchpadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joprice.scratchpadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scratchpad.app/scratchpad";
+			};
+			name = Debug;
+		};
+		6FD8E7A525D0C85F00F239F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XM6SK89ZM;
+				INFOPLIST_FILE = scratchpadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joprice.scratchpadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scratchpad.app/scratchpad";
+			};
+			name = Release;
+		};
+		6FD8E7A725D0C85F00F239F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XM6SK89ZM;
+				INFOPLIST_FILE = scratchpadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joprice.scratchpadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = scratchpad;
+			};
+			name = Debug;
+		};
+		6FD8E7A825D0C85F00F239F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XM6SK89ZM;
+				INFOPLIST_FILE = scratchpadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joprice.scratchpadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = scratchpad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FD8E77625D0C85D00F239F2 /* Build configuration list for PBXProject "scratchpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD8E79E25D0C85F00F239F2 /* Debug */,
+				6FD8E79F25D0C85F00F239F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD8E7A025D0C85F00F239F2 /* Build configuration list for PBXNativeTarget "scratchpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD8E7A125D0C85F00F239F2 /* Debug */,
+				6FD8E7A225D0C85F00F239F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD8E7A325D0C85F00F239F2 /* Build configuration list for PBXNativeTarget "scratchpadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD8E7A425D0C85F00F239F2 /* Debug */,
+				6FD8E7A525D0C85F00F239F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD8E7A625D0C85F00F239F2 /* Build configuration list for PBXNativeTarget "scratchpadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD8E7A725D0C85F00F239F2 /* Debug */,
+				6FD8E7A825D0C85F00F239F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FD8E77325D0C85D00F239F2 /* Project object */;
+}
